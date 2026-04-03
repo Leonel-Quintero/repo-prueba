@@ -25,3 +25,14 @@ int main(){
     return 0;
 
 }
+void primero(int a, int b){
+    printf("El primer numero (%d) es el mayor\n", a);
+}
+
+void segundo(int a, int b){
+    printf("El segundo numero (%d) es el mayor\n", a);
+}
+
+void iguales(){
+    printf("Son iguales\n");
+}
