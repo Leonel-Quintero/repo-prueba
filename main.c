@@ -12,5 +12,20 @@ int main(){
     scanf("%d", &n1);
     printf("Ingrese el segundo numero: ");
     scanf("%d", &n2);
+<<<<<<< HEAD
+=======
+    
+    // Dev-2
+    if (n1 > n2) {
+        primero(n1, n2);
+    } 
+    else if (n1 < n2) {
+        segundo(n1, n2);
+    } 
+    else {
+        iguales();
+    }
+    return 0;
+>>>>>>> Dev-2
 
 }
